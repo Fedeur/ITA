@@ -1,6 +1,3 @@
-<!--
-![IT Academy](https://github.com/user-attachments/assets/cd1dd783-1453-4cf2-9fe1-88f1f1a031b2)
--->
 
 ###                                     IT Academy – Data Analytics
 

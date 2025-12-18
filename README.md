@@ -12,4 +12,12 @@ Cada carpeta contiene el PDF de la entrega, los scripts SQL y los recursos utili
   - consultas con JOIN
   - subconsultas SQL
 
+- Sprint 03  
+Resolución de ejercicios de SQL:
+- creación y modificación de tablas
+- definición de claves foráneas
+- inserción, actualización y eliminación de registros
+- creación y consulta de vistas SQL
+- consultas con JOIN
+- subconsultas SQL
 

@@ -1,0 +1,144 @@
+:root {
+  --iris-red: #e30613;
+  --iris-blue: #17324d;
+  --iris-ink: #102033;
+  --iris-muted: #5b6678;
+  --iris-light: #f5f7fa;
+  --iris-line: #d9e1ea;
+}
+
+.reveal {
+  color: var(--iris-ink);
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  color: var(--iris-blue);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.reveal h1 {
+  font-size: 1.7em;
+}
+
+.reveal h2 {
+  font-size: 1.18em;
+  margin-bottom: 0.35em;
+}
+
+.reveal h3 {
+  font-size: 0.82em;
+}
+
+.reveal p,
+.reveal li {
+  font-size: 0.62em;
+  line-height: 1.28;
+}
+
+.reveal strong {
+  color: var(--iris-red);
+}
+
+.reveal .slide {
+  padding: 18px 34px;
+}
+
+.section-card {
+  background: var(--iris-red);
+  color: white;
+  border-radius: 8px;
+  padding: 34px 42px;
+  min-height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-card h2,
+.section-card h1,
+.section-card p,
+.section-card strong {
+  color: white;
+}
+
+.lead {
+  border-left: 8px solid var(--iris-red);
+  background: var(--iris-light);
+  padding: 0.7em 0.9em;
+  font-size: 0.76em;
+  line-height: 1.25;
+}
+
+.tiny-note {
+  color: var(--iris-muted);
+  font-size: 0.42em !important;
+  margin-top: 0.3em;
+}
+
+.visual-grid {
+  display: grid;
+  grid-template-columns: 0.96fr 1.04fr;
+  gap: 26px;
+  align-items: center;
+}
+
+.visual-grid img {
+  max-height: 650px;
+  object-fit: contain;
+}
+
+.context-image img,
+.full-image img {
+  width: 100%;
+  max-height: 710px;
+  object-fit: contain;
+}
+
+.chart-slide .cell {
+  margin: 0;
+}
+
+.chart-slide .cell-output,
+.chart-slide .cell-output-display {
+  margin: 0;
+  overflow: visible;
+}
+
+.chart-slide .plotly-graph-div {
+  margin: 0 auto !important;
+  max-width: 100% !important;
+}
+
+.reveal .quarto-figure {
+  margin: 0;
+}
+
+.reveal table {
+  font-size: 0.48em;
+  width: 100%;
+}
+
+.reveal .slide-number {
+  color: var(--iris-muted);
+}
+
+.cols-tight {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: center;
+}
+
+.kpi {
+  display: inline-block;
+  background: var(--iris-light);
+  border: 1px solid var(--iris-line);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-right: 8px;
+  font-size: 0.55em;
+}

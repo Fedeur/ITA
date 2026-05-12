@@ -1,13 +1,7 @@
-# %% [markdown]
-# <div style="background-color: #84bfef; padding: 20px; border-radius: 10px">
-# 
-# # Sprint 11 - Visualización de Datos con Python y Power BI
-# </div>
 
-# %% [markdown]
-# # Librerías
 
 # %%
+import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt

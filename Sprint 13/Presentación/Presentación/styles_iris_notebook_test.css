@@ -10,6 +10,21 @@
 .reveal {
   color: var(--iris-ink);
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background: white;
+}
+
+.reveal:fullscreen,
+.reveal:-webkit-full-screen {
+  width: 100vw;
+  height: 100vh;
+  background: white !important;
+}
+
+html:fullscreen,
+body:fullscreen,
+html:-webkit-full-screen,
+body:-webkit-full-screen {
+  background: white !important;
 }
 
 .reveal h1,
@@ -51,7 +66,11 @@
   background: var(--iris-red);
   color: white;
   border-radius: 8px;
+  box-sizing: border-box;
   padding: 34px 42px;
+  width: calc(100% - 96px);
+  margin-left: auto;
+  margin-right: auto;
   min-height: 470px;
   display: flex;
   flex-direction: column;

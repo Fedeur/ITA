@@ -1,0 +1,30 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  function requestRevealFullscreen() {
+    const element = document.querySelector(".reveal") || document.body;
+    const requestMethod =
+      element.requestFullscreen ||
+      element.webkitRequestFullscreen ||
+      element.webkitRequestFullScreen ||
+      element.mozRequestFullScreen ||
+      element.msRequestFullscreen;
+
+    if (requestMethod) {
+      requestMethod.call(element);
+    }
+  }
+
+  const install = function () {
+    if (!window.RevealMenuToolHandlers || !window.revealMenuToolHandler) {
+      window.setTimeout(install, 100);
+      return;
+    }
+
+    window.RevealMenuToolHandlers.fullscreen = window.revealMenuToolHandler(function () {
+      requestRevealFullscreen();
+    });
+  };
+
+  install();
+});
+</script>
